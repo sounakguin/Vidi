@@ -1,27 +1,70 @@
+import Image from "next/image";
+
 export default function Header() {
-    return (
-      <>
-        <div
-          className="bg-cover bg-center h-96"
-          style={{ backgroundColor: "grey" }}
-        >
-          <div className="flex flex-col ">
-            <p>About Us</p>
-            <p className="w-3/4 font-sans text-2xl font-normal leading-7 text-left">
-              VIDI- Khabya Technologies Pvt. Ltd. is one of the most recognized
-              and trusted brands nationally for the manufacture, distribution,
-              supply and trading of Reverse Osmosis (RO) components such as
-              Domestic RO Booster Pumps, RO Inline Filters, RO Membrane, RO
-              Housing, RO Spun Filter and many other spare parts.
-            </p>
+  return (
+    <>
+      <div
+        className="bg-center h-[550px]"
+        style={{
+          backgroundImage:
+            "linear-gradient(90deg, #84C2E7 5%, rgba(255, 255, 255, 0) 100%), url('/images/header.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="flex flex-col ">
+          <p className="text-[42px] w-[850px] pl-28 pt-36">Contact Us</p>
+          <div className="pl-28 text-[20px] pt-10 flex flex-col w-[805px] space-y-3">
+            <div className="flex space-x-3 font-bold">
+              <img
+                src="/images/Organization.png"
+                alt="Logo"
+                className="h-[30px] w-[30px]"
+              />
+              <p>Khabya Technologies Pvt Ltd</p>
+            </div>
+            <div className="flex space-x-3 font-bold">
+              {" "}
+              <img
+                src="/images/Phone.png"
+                alt="Logo"
+                className="h-[30px] w-[30px]"
+              />
+              <p>9274686957</p>
+            </div>
+            <div className="flex space-x-3 font-bold">
+              <img
+                src="/images/Letter.png"
+                alt="Logo"
+                className="h-[30px] w-[30px]"
+              />
+              <p>support@vidi.co.in</p>
+            </div>
+            <div className="flex space-x-3 font-bold">
+              <img
+                src="/images/PlaceMarker.png"
+                alt="Logo"
+                className="h-[30px] w-[30px]"
+              />
+              <p>
+                Plot no 871, Road no 84, GIDC, Sachin, Surat, Gujarat 394230
+              </p>
+            </div>
           </div>
         </div>
-        <div className="relative">
-          <div className="absolute -bottom-2 left-0 ">
-            <img src="/images/vector.png" alt="Logo" />
-          </div>
+      </div>
+      <div className="relative">
+        <div className="absolute -bottom-2 left-0 w-full">
+          <Image
+            src="/images/vector.png"
+            alt="Logo"
+            layout="responsive"
+            width={100}
+            height={300}
+            objectFit="cover"
+          />
         </div>
-      </>
-    );
-  }
-  
+      </div>
+    </>
+  );
+}

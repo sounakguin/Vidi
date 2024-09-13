@@ -1,4 +1,6 @@
 import React from "react";
+import Image from 'next/image';
+
 
 export default function Awards() {
   return (
@@ -15,10 +17,11 @@ export default function Awards() {
         <div className="flex justify-between mt-5">
           {Recognitions.map((item, index) => (
             <div key={index} className="flex flex-col items-center p-2">
-              <img
+              <Image
                 src={item.Image}
                 alt={`Recognition ${index}`}
-                className="mb-2 h-[90px] w-[90px] object-cover"
+                width={90} height={90} 
+                className="mb-2 object-cover"
               />
               <p className="text-sm">{item.Year}</p>
               <div className="flex items-center justify-center p-4 w-64 bg-[#EFF6FF] mt-5">

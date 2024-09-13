@@ -1,27 +1,37 @@
+import Image from "next/image";
 export default function Header() {
-    return (
-      <>
-        <div
-          className="bg-cover bg-center h-96"
-          style={{ backgroundColor: "grey" }}
-        >
-          <div className="flex flex-col ">
-            <p>About Us</p>
-            <p className="w-3/4 font-sans text-2xl font-normal leading-7 text-left">
-              VIDI- Khabya Technologies Pvt. Ltd. is one of the most recognized
-              and trusted brands nationally for the manufacture, distribution,
-              supply and trading of Reverse Osmosis (RO) components such as
-              Domestic RO Booster Pumps, RO Inline Filters, RO Membrane, RO
-              Housing, RO Spun Filter and many other spare parts.
-            </p>
-          </div>
+  return (
+    <>
+      <div
+        className="bg-center h-[480px]"
+        style={{
+          backgroundImage:
+            "linear-gradient(90deg, #84C2E7 5%, rgba(255, 255, 255, 0) 100%), url('/images/header.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="flex flex-col ">
+          <p className="text-[42px] w-[850px] pl-28 pt-36">
+            Join Hands with VIDI
+          </p>
+          <p className="pl-28 text-[24px] pt-16 w-[850px]">
+            Lorem Ipsum has been the industry's industry's standard dummy text.
+          </p>
         </div>
-        <div className="relative">
-          <div className="absolute -bottom-2 left-0 ">
-            <img src="/images/vector.png" alt="Logo"/>
-          </div>
+      </div>
+      <div className="relative">
+        <div className="absolute -bottom-2 left-0 w-full">
+          <Image
+            src="/images/vector.png"
+            alt="Logo"
+            layout="responsive"
+            width={100}
+            height={300}
+            objectFit="cover"
+          />
         </div>
-      </>
-    );
-  }
-  
+      </div>
+    </>
+  );
+}

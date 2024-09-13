@@ -1,4 +1,3 @@
-import Footer from "@/Components/Global/Footer";
 import Deals from "@/Components/Pages/Products/Deals";
 import Header from "@/Components/Pages/Products/Header";
 import Items from "@/Components/Pages/Products/Items";
@@ -12,7 +11,6 @@ export default function page() {
       <Items />
       <Deals />
       <Videoslick />
-      <Footer />
     </div>
   );
 }

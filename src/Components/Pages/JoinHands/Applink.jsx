@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Applink() {
   return (
@@ -10,25 +11,17 @@ export default function Applink() {
             background: "linear-gradient(360deg, #EFF6FF 0%, #FFFFFF 100%)",
           }}
         >
-          <img
-            src="/images/Group1.png"
-            alt="Logo"
-            className="h-[30px] w-[30px]"
-          />
+          <Image src="/images/Group1.png" alt="Logo" width={30} height={30} />
           <p className="pt-5 text-lg">App link</p>
           <p className="w-[610px] pt-10 text-md">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of
-            type and scrambled it to make a type specimen book.
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
           </p>
         </div>
         <div>
-          <img
-            src="/images/Applink.png"
-            alt="Logo"
-            className="h-[350px] w-[550px]"
-          />
+          <Image src="/images/Applink.png" alt="Logo" width={30} height={30} />
         </div>
       </div>
     </div>

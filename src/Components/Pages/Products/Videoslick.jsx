@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import videos from "../../../Components/Data/Productpage/Video";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from "next/image";
 
 // Custom Previous Arrow Component
 function SamplePrevArrow(props) {
@@ -29,14 +30,13 @@ function SamplePrevArrow(props) {
       }}
       onClick={onClick}
     >
-      <img
+      <Image
         src="/images/Back.png"
         alt="Previous"
-        style={{
-          maxWidth: "100%",
-          maxHeight: "100%",
-          objectFit: "contain",
-        }}
+        width={30} // Set the width
+        height={30} // Set the height
+        objectFit="contain" // Ensure the image scales correctly
+        layout="intrinsic" // Ensure the image respects the width and height
       />
     </div>
   );
@@ -66,14 +66,13 @@ function SampleNextArrow(props) {
       }}
       onClick={onClick}
     >
-      <img
+      <Image
         src="/images/Next.png"
-        alt="Next"
-        style={{
-          maxWidth: "100%",
-          maxHeight: "100%",
-          objectFit: "contain",
-        }}
+        alt="Previous"
+        width={30} // Set the width
+        height={30} // Set the height
+        objectFit="contain" // Ensure the image scales correctly
+        layout="intrinsic" // Ensure the image respects the width and height
       />
     </div>
   );
@@ -144,9 +143,12 @@ export default function Videoslick() {
           </Slider>
         </div>
       </div>
-      <img
+      <Image
         src="/images/sc1.png"
         alt="Logo"
+        width={1920} // Set appropriate width
+        height={500} // Set appropriate height
+      
         className="relative bottom-9 w-full h-auto"
       />
     </div>

@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 
 export default function Joinhandes() {
   const [activeTab, setActiveTab] = useState(1);
@@ -25,10 +26,11 @@ export default function Joinhandes() {
             </p>
           </div>
           <div>
-            <img
+            <Image
               src="/images/Applink.png"
               alt="Logo"
-              className="h-[350px] w-[550px]"
+              width={550}
+              height={350}
             />
           </div>
         </div>
@@ -54,10 +56,11 @@ export default function Joinhandes() {
             </p>
           </div>
           <div>
-            <img
+            <Image
               src="/images/Partner.png"
               alt="Logo"
-              className="h-[350px] w-[550px]"
+              width={550}
+              height={350}
             />
           </div>
         </div>
@@ -83,10 +86,11 @@ export default function Joinhandes() {
             </p>
           </div>
           <div>
-            <img
+            <Image
               src="/images/water.png"
               alt="Logo"
-              className="h-[350px] w-[550px]"
+              width={550}
+              height={350}
             />
           </div>
         </div>
@@ -97,7 +101,7 @@ export default function Joinhandes() {
   return (
     <div>
       <div className="w-11/12 mx-auto p-5">
-        <p className="text-3xl font-bold mt-24">Join Hands with VIDI</p>
+        <p className="text-[48px] font-bold mt-24">Join Hands with VIDI</p>
         <div className="flex flex-col mt-10">
           {/* Tab Header */}
           <div className="flex text-center">

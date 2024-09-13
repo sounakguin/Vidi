@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Rewards() {
   return (
@@ -15,12 +16,12 @@ export default function Rewards() {
         </div>
 
         <div>
-          <img src="/images/Frame50.png" alt="Logo" className=" w-[832px]" />
+          <Image src="/images/Frame50.png" alt="Logo" width={832} height={700} />
         </div>
       </div>
       <div className="w-11/12 mx-auto flex gap-10 p-4">
         <div>
-          <img src="/images/Frame51.png" alt="Logo" className=" w-[832px]" />
+          <Image src="/images/Frame51.png" alt="Logo" width={832} height={700}  />
         </div>
         <div className="bg-[#EFF6FF] w-[748px] h-[220px] p-6 mt-56 ">
           <p className="text-2xl pt-3">Event Title</p>

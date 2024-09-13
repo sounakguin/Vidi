@@ -3,6 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from "next/image";
 
 // Custom Previous Arrow Component
 function SamplePrevArrow(props) {
@@ -28,14 +29,13 @@ function SamplePrevArrow(props) {
       }}
       onClick={onClick}
     >
-      <img
+      <Image
         src="/images/Back.png"
         alt="Previous"
-        style={{
-          maxWidth: "100%",
-          maxHeight: "100%",
-          objectFit: "contain",
-        }}
+        width={30} // Set the width
+        height={30} // Set the height
+        objectFit="contain" // Ensure the image scales correctly
+        layout="intrinsic" // Ensure the image respects the width and height
       />
     </div>
   );
@@ -65,132 +65,132 @@ function SampleNextArrow(props) {
       }}
       onClick={onClick}
     >
-      <img
+      <Image
         src="/images/Next.png"
-        alt="Next"
-        style={{
-          maxWidth: "100%",
-          maxHeight: "100%",
-          objectFit: "contain",
-        }}
+        alt="Previous"
+        width={30} // Set the width
+        height={30} // Set the height
+        objectFit="contain" // Ensure the image scales correctly
+        layout="intrinsic" // Ensure the image respects the width and height
       />
     </div>
   );
 }
 
 export default function Vidirewards() {
-    const settings = {
-        dots: false,
-        arrows: true,
-        infinite: false,
-        speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        initialSlide: 1,
-        prevArrow: <SamplePrevArrow />, 
-        nextArrow: <SampleNextArrow />,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: true,
-            },
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2,
-            },
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-        ],
-      };
-    
-      return (
-        <div className=" w-11/12 mx-auto">
-          <p className="text-2xl pl-4 pt-16 pb-8">How to earn VIDI Rewards </p>
-          <Slider {...settings}>
-            {Blog.map((item, index) => (
-              <div key={index} className="flex flex-col p-4">
-                <img
-                  src={item.Image}
-                  alt={`Blog Image ${index}`}
-                  className="mb-4 h-[260] w-[292] object-cover"
-                />
-                <div className="">
-                  <p className="text-lg font-semibold text-left">{item.Coin}</p>
-                  <p className="text-sm text-left mt-2">{item.Description}</p>
-                </div>
-                <p className="text-xs text-left pt-3 text-gray-500">
-                  {item.Datedata}
-                </p>
-              </div>
-            ))}
-          </Slider>
-        </div>
-      );
-    }
-    
-    // Blog Data
-    const Blog = [
+  const settings = {
+    dots: false,
+    arrows: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    initialSlide: 1,
+    prevArrow: <SamplePrevArrow />,
+    nextArrow: <SampleNextArrow />,
+    responsive: [
       {
-        Image: "/images/cl1.png",
-        Coin: "Earn Rewards",
-        Description: "Lorem Ipsum has been the industry's standard dummy",
-        Datedata: "August 24, 2024",
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
       },
       {
-        Image: "/images/cl1.png",
-        Coin: "Earn Rewards",
-        Description: "Lorem Ipsum has been the industry's standard dummy",
-        Datedata: "August 24, 2024",
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
       },
       {
-        Image: "/images/cl1.png",
-        Coin: "Earn Rewards",
-        Description: "Lorem Ipsum has been the industry's standard dummy",
-        Datedata: "August 24, 2024",
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
       },
-      {
-        Image: "/images/cl1.png",
-        Coin: "Earn Rewards",
-        Description: "Lorem Ipsum has been the industry's standard dummy",
-        Datedata: "August 24, 2024",
-      },
-      {
-        Image: "/images/cl1.png",
-        Coin: "Earn Rewards",
-        Description: "Lorem Ipsum has been the industry's standard dummy",
-        Datedata: "August 24, 2024",
-      },
-      {
-        Image: "/images/cl1.png",
-        Coin: "Earn Rewards",
-        Description: "Lorem Ipsum has been the industry's standard dummy",
-        Datedata: "August 24, 2024",
-      },
-      {
-        Image: "/images/cl1.png",
-        Coin: "Earn Rewards",
-        Description: "Lorem Ipsum has been the industry's standard dummy",
-        Datedata: "August 24, 2024",
-      },
-      {
-        Image: "/images/cl1.png",
-        Coin: "Earn Rewards",
-        Description: "Lorem Ipsum has been the industry's standard dummy",
-        Datedata: "August 24, 2024",
-      },
-    ];
-    
+    ],
+  };
+
+  return (
+    <div className=" w-11/12 mx-auto">
+      <p className="text-2xl pl-4 pt-16 pb-8">How to earn VIDI Rewards </p>
+      <Slider {...settings}>
+        {Blog.map((item, index) => (
+          <div key={index} className="flex flex-col p-4">
+            <Image
+              src={item.Image}
+              alt={`Blog Image ${index}`}
+              width={292} // Set the width
+              height={260} // Set the height
+              className="mb-4 object-cover"
+            />
+            <div className="">
+              <p className="text-lg font-semibold text-left">{item.Coin}</p>
+              <p className="text-sm text-left mt-2">{item.Description}</p>
+            </div>
+            <p className="text-xs text-left pt-3 text-gray-500">
+              {item.Datedata}
+            </p>
+          </div>
+        ))}
+      </Slider>
+    </div>
+  );
+}
+
+// Blog Data
+const Blog = [
+  {
+    Image: "/images/cl1.png",
+    Coin: "Earn Rewards",
+    Description: "Lorem Ipsum has been the industry's standard dummy",
+    Datedata: "August 24, 2024",
+  },
+  {
+    Image: "/images/cl1.png",
+    Coin: "Earn Rewards",
+    Description: "Lorem Ipsum has been the industry's standard dummy",
+    Datedata: "August 24, 2024",
+  },
+  {
+    Image: "/images/cl1.png",
+    Coin: "Earn Rewards",
+    Description: "Lorem Ipsum has been the industry's standard dummy",
+    Datedata: "August 24, 2024",
+  },
+  {
+    Image: "/images/cl1.png",
+    Coin: "Earn Rewards",
+    Description: "Lorem Ipsum has been the industry's standard dummy",
+    Datedata: "August 24, 2024",
+  },
+  {
+    Image: "/images/cl1.png",
+    Coin: "Earn Rewards",
+    Description: "Lorem Ipsum has been the industry's standard dummy",
+    Datedata: "August 24, 2024",
+  },
+  {
+    Image: "/images/cl1.png",
+    Coin: "Earn Rewards",
+    Description: "Lorem Ipsum has been the industry's standard dummy",
+    Datedata: "August 24, 2024",
+  },
+  {
+    Image: "/images/cl1.png",
+    Coin: "Earn Rewards",
+    Description: "Lorem Ipsum has been the industry's standard dummy",
+    Datedata: "August 24, 2024",
+  },
+  {
+    Image: "/images/cl1.png",
+    Coin: "Earn Rewards",
+    Description: "Lorem Ipsum has been the industry's standard dummy",
+    Datedata: "August 24, 2024",
+  },
+];

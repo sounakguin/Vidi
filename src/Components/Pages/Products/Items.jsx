@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Products from "../../Data/Productpage/Products";
+import Image from "next/image";
 
 export default function Items() {
   return (
-    <div className="mt-20">
-      <div className="container mx-auto px-7 w-11/12">
+    <div className="mt-20 w-11/12 mx-auto">
+      <div className="container px-8 ">
         <div className="flex flex-col lg:flex-row lg:space-x-8">
           <div className="w-full lg:w-1/4 mb-8 lg:mb-0">
             <p className="text-lg font-semibold mb-3">Sort By</p>
@@ -53,10 +54,12 @@ export default function Items() {
             {Products.map((item) => (
               <Link key={item.id} href={`/products/${item.id}`} passHref>
                 <div className="p-4 text-center cursor-pointer">
-                  <img
+                  <Image
                     src={item.Image}
                     alt={item.Name}
-                    className="w-full h-48 object-cover mb-4 rounded-lg"
+                    width={293}
+                    height={285}
+                    className="object-cover mb-4 rounded-lg"
                   />
                   <h2 className="text-xl font-semibold mb-2">{item.Name}</h2>
                   <p className="text-xs text-gray-700">{item.Description}</p>

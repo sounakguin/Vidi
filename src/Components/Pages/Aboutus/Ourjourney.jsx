@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 export default function OurJourney() {
   return (
     <>
@@ -10,7 +10,9 @@ export default function OurJourney() {
             <img
               src="/images/image1.png"
               alt="Our Journey"
-              className="h-80 w-80 object-cover"
+              width={350}
+              height={350}
+              className=" object-cover"
             />
           </div>
 
@@ -19,9 +21,11 @@ export default function OurJourney() {
             <h2 className="text-3xl font-bold mb-4">Our Journey</h2>
             <div className="flex flex-col">
             <div className="flex">
-                <img
+                <Image
                   src="/images/FilledCircle.png"
                   alt="Our Journey"
+                  width={10}
+                  height={10}
                   className="h-5 w-5 object-cover pt-1"
                 />
                 <p className="text-md pl-3  mb-2">
@@ -33,9 +37,11 @@ export default function OurJourney() {
                 </p>
               </div>
               <div className="flex">
-                <img
+                <Image
                   src="/images/FilledCircle.png"
                   alt="Our Journey"
+                  width={10}
+                  height={10}
                   className="h-5 w-5 object-cover pt-1"
                 />
                 <p className="text-md pl-3  mb-2">
@@ -47,9 +53,11 @@ export default function OurJourney() {
                 </p>
               </div>
               <div className="flex">
-                <img
+                <Image
                   src="/images/FilledCircle.png"
                   alt="Our Journey"
+                  width={10}
+                  height={10}
                   className="h-5 w-5 object-cover pt-1"
                 />
                 <p className="text-md pl-3  mb-2">

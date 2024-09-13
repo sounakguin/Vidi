@@ -4,7 +4,7 @@ export default function Socialmedia() {
   return (
    <div>
      <div className="w-11/12 mx-auto p-6">
-      <p className="text-3xl font-bold mt-20">Latest social media posts</p>
+      <p className="text-[48px] font-bold mt-20">Latest social media posts</p>
       <p className="text-sm mt-8 w-2/4">
         Lorem Ipsum has been the industry's standard dummy text ever since the
         1500s, when an unknown printer took a galley book.

@@ -1,4 +1,4 @@
-// File: F:\Vidi\vidi\src\app\(root)\contactus\page.jsx
+// File: F:\Vidipurifying\src\app\(root)\contactus\page.jsx
 import * as entry from '../../../../../src/app/(root)/contactus/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

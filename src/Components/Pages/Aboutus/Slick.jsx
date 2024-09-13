@@ -3,6 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from "next/image";
 
 // Custom Previous Arrow Component
 function SamplePrevArrow(props) {
@@ -28,14 +29,13 @@ function SamplePrevArrow(props) {
       }}
       onClick={onClick}
     >
-      <img
+      <Image
         src="/images/Back.png"
         alt="Previous"
-        style={{
-          maxWidth: "100%",
-          maxHeight: "100%",
-          objectFit: "contain",
-        }}
+        width={30} // Set the width
+        height={30} // Set the height
+        objectFit="contain" // Ensure the image scales correctly
+        layout="intrinsic" // Ensure the image respects the width and height
       />
     </div>
   );
@@ -65,14 +65,13 @@ function SampleNextArrow(props) {
       }}
       onClick={onClick}
     >
-      <img
+      <Image
         src="/images/Next.png"
-        alt="Next"
-        style={{
-          maxWidth: "100%",
-          maxHeight: "100%",
-          objectFit: "contain",
-        }}
+        alt="Previous"
+        width={30} // Set the width
+        height={30} // Set the height
+        objectFit="contain" // Ensure the image scales correctly
+        layout="intrinsic" // Ensure the image respects the width and height
       />
     </div>
   );
@@ -87,7 +86,7 @@ export default function Slick() {
     slidesToShow: 5,
     slidesToScroll: 1,
     initialSlide: 1,
-    prevArrow: <SamplePrevArrow />, 
+    prevArrow: <SamplePrevArrow />,
     nextArrow: <SampleNextArrow />,
     responsive: [
       {
@@ -123,10 +122,12 @@ export default function Slick() {
       <Slider {...settings}>
         {Blog.map((item, index) => (
           <div key={index} className="flex flex-col p-4">
-            <img
+            <Image
               src={item.Image}
               alt={`Blog Image ${index}`}
-              className="mb-4 h-[260] w-[292] object-cover"
+              width={292}
+              height={260}
+              className="mb-4 object-cover"
             />
             <div className="">
               <p className="text-lg font-semibold text-left">{item.Coin}</p>

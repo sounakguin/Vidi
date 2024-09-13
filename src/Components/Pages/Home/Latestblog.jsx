@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Slider from "react-slick";
+import Image from "next/image"; // Import Image component from next/image
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -28,14 +29,12 @@ function SamplePrevArrow(props) {
       }}
       onClick={onClick}
     >
-      <img
+      <Image
         src="/images/Back.png"
         alt="Previous"
-        style={{
-          maxWidth: "100%",
-          maxHeight: "100%",
-          objectFit: "contain",
-        }}
+        width={30}
+        height={30}
+        objectFit="contain"
       />
     </div>
   );
@@ -65,14 +64,12 @@ function SampleNextArrow(props) {
       }}
       onClick={onClick}
     >
-      <img
+      <Image
         src="/images/Next.png"
         alt="Next"
-        style={{
-          maxWidth: "100%",
-          maxHeight: "100%",
-          objectFit: "contain",
-        }}
+        width={30}
+        height={30}
+        objectFit="contain"
       />
     </div>
   );
@@ -119,14 +116,17 @@ export default function Latestblog() {
 
   return (
     <div className="p-6 w-11/12 mx-auto">
-      <p className="text-2xl pl-4 pt-16 pb-8">Latest Blogs </p>
+      <p className="text-[48px] pl-4 pt-16 pb-8">Latest Blogs </p>
       <Slider {...settings}>
         {Blog.map((item, index) => (
           <div key={index} className="flex flex-col p-4">
-            <img
+            <Image
               src={item.Image}
               alt={`Blog Image ${index}`}
-              className="mb-4 h-[260] w-[292] object-cover"
+              width={292}
+              height={260}
+              objectFit="cover"
+              className="mb-4"
             />
             <div className="">
               <p className="text-lg font-semibold text-left">{item.Coin}</p>
