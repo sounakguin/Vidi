@@ -36,7 +36,7 @@ function SamplePrevArrow(props) {
         width={30} // Set the width
         height={30} // Set the height
         objectFit="contain" // Ensure the image scales correctly
-        layout="intrinsic" // Ensure the image respects the width and height
+        
       />
     </div>
   );
@@ -72,7 +72,7 @@ function SampleNextArrow(props) {
         width={30} // Set the width
         height={30} // Set the height
         objectFit="contain" // Ensure the image scales correctly
-        layout="intrinsic" // Ensure the image respects the width and height
+     
       />
     </div>
   );

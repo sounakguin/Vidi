@@ -7,7 +7,7 @@ export default function OurJourney() {
         <div className="flex space-x-32">
           {/* Image Section */}
           <div className="flex-shrink-0">
-            <img
+            <Image
               src="/images/image1.png"
               alt="Our Journey"
               width={350}

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 export default function Header() {
   return (
     <>
@@ -21,7 +21,7 @@ export default function Header() {
         </div>
       </div>
       <div className="relative">
-      <div className="absolute -bottom-2 left-0 w-full">
+        <div className="absolute -bottom-2 left-0 w-full">
           <Image
             src="/images/vector.png"
             alt="Logo"

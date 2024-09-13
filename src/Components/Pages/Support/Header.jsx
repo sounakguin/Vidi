@@ -16,7 +16,7 @@ export default function Header() {
             Support & Policies
           </p>
           <p className="pl-28 text-[24px] pt-14 w-[850px]">
-            Lorem Ipsum has been the industry's industry's standard dummy text.
+            Lorem Ipsum has been the industry industry standard dummy text.
           </p>
         </div>
       </div>

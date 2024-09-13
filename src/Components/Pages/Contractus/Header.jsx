@@ -16,35 +16,38 @@ export default function Header() {
           <p className="text-[42px] w-[850px] pl-28 pt-36">Contact Us</p>
           <div className="pl-28 text-[20px] pt-10 flex flex-col w-[805px] space-y-3">
             <div className="flex space-x-3 font-bold">
-              <img
+              <Image
                 src="/images/Organization.png"
                 alt="Logo"
-                className="h-[30px] w-[30px]"
+                width={30}
+                height={30}
               />
               <p>Khabya Technologies Pvt Ltd</p>
             </div>
             <div className="flex space-x-3 font-bold">
-              {" "}
-              <img
+              <Image
                 src="/images/Phone.png"
                 alt="Logo"
-                className="h-[30px] w-[30px]"
+                width={30}
+                height={30}
               />
               <p>9274686957</p>
             </div>
             <div className="flex space-x-3 font-bold">
-              <img
+              <Image
                 src="/images/Letter.png"
                 alt="Logo"
-                className="h-[30px] w-[30px]"
+                width={30}
+                height={30}
               />
               <p>support@vidi.co.in</p>
             </div>
             <div className="flex space-x-3 font-bold">
-              <img
+              <Image
                 src="/images/PlaceMarker.png"
                 alt="Logo"
-                className="h-[30px] w-[30px]"
+                width={30}
+                height={30}
               />
               <p>
                 Plot no 871, Road no 84, GIDC, Sachin, Surat, Gujarat 394230

@@ -13,12 +13,10 @@ export default function Header() {
         }}
       >
         <div className="flex flex-col ">
-          <p className="text-[42px] w-[850px] pl-28 pt-36">
-            Company’s programme
-          </p>
+          <p className="text-[42px] w-[850px] pl-28 pt-36">Company programme</p>
           <p className="pl-28 text-[24px] pt-16 w-[850px]">
-            Lorem Ipsum has been the industry's standard when an unknown printer
-            galley book. it has been the industry's standard dummy text.
+            Lorem Ipsum has been the industry standard when an unknown printer
+            galley book. it has been the industry standard dummy text.
           </p>
         </div>
       </div>

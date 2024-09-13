@@ -1,10 +1,10 @@
 {
   "pages": {
-    "/(root)/about/page": [
+    "/(root)/programme/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(root)/about/page.css",
-      "static/chunks/app/(root)/about/page.js"
+      "static/css/app/(root)/programme/page.css",
+      "static/chunks/app/(root)/programme/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -12,33 +12,21 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(root)/page": [
+    "/(root)/support/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(root)/page.css",
-      "static/chunks/app/(root)/page.js"
-    ],
-    "/(root)/programme/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(root)/programme/page.css",
-      "static/chunks/app/(root)/programme/page.js"
-    ],
-    "/(root)/contactus/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/contactus/page.js"
-    ],
-    "/(root)/joinhands/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/joinhands/page.js"
+      "static/chunks/app/(root)/support/page.js"
     ],
     "/(root)/products/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/(root)/products/page.css",
       "static/chunks/app/(root)/products/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

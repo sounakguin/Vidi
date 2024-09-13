@@ -16,7 +16,7 @@ export default function Header() {
             Join Hands with VIDI
           </p>
           <p className="pl-28 text-[24px] pt-16 w-[850px]">
-            Lorem Ipsum has been the industry's industry's standard dummy text.
+            Lorem Ipsum has been the industry standard dummy text.
           </p>
         </div>
       </div>
