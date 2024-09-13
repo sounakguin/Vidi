@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -6,10 +7,12 @@ export default function Footer() {
       <div className="bg-[#F4F4F4] border border-[#BFBFBF] pt-12 pb-12">
         <div className="flex justify-around">
           <div className="flex-col">
-            <img
+            <Image
               src="/images/logo2.png"
               alt="Logo"
-              className="h-[83px] w-[167px]"
+              width={167}
+              height={83}
+           
             />
             <p className="w-80 leading-7">
               There are many variations of passages of Lorem Ipsum available,
@@ -38,32 +41,39 @@ export default function Footer() {
         <div className="border border-black w-4/5 mx-auto mt-24"></div>
         <div className="flex w-4/5 mx-auto justify-between mt-8 ">
           <div className="flex space-x-3 pt-2">
-            <img
+            <Image
               src="/images/Facebook.png"
               alt="Logo"
-              className="h-[20px] w-[20px] "
-            />
-            <img
+              width={20}
+              height={20}
+              />
+            <Image
               src="/images/Instragram.png"
               alt="Logo"
-              className="h-[20px] w-[20px]"
+              width={20}
+              height={20}
             />
-            <img
+            <Image
               src="/images/YouTube.png"
               alt="Logo"
-              className="h-[20px] w-[20px]"
+              width={20}
+              height={20}
             />
           </div>
           <div className="flex space-x-3 ">
-            <img
+            <Image
               src="/images/Frame.png"
               alt="Logo"
-              className="h-[40px] w-[135px] pl-1"
+              width={135}
+              height={40}
+              className="pl-1"
             />
-            <img
+            <Image
               src="/images/Frame1.png"
               alt="Logo"
-              className="h-[40px] w-[135px]"
+              width={135}
+              height={40}
+             
             />
           </div>
         </div>
@@ -81,10 +91,12 @@ export default function Footer() {
             <p className="">All Rights Reserved © vidi.co.in</p>
           </div>
           <div className="flex mr-32 space-x-2">
-            <img
+            <Image
               src="/images/Frame2.png"
               alt="Logo"
-              className="h-[18px] w-[18px]"
+              width={18}
+              height={18}
+          
             />
             <p >
             Accessibility statement
