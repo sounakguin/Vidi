@@ -19,7 +19,7 @@ export default function Finddealer() {
             background: "linear-gradient(360deg, #EFF6FF 0%, #FFFFFF 100%)",
           }}
         >
-          <Image src="/images/Group2.png" alt="Logo" width={30} height={30} />
+          <Image src="/images/Group2.png" alt="Logo" width={30} height={30}   style={{ objectFit: "cover" }} />
           <p className="pt-5 text-lg">Find dealer</p>
           <p className="w-[610px] pt-10 text-md">
             Lorem Ipsum is simply dummy text of the printing and typesetting

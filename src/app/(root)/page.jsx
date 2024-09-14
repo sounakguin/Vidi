@@ -8,8 +8,6 @@ import Testimonial from "@/Components/Pages/Home/Testimonial";
 import Vidibuyer from "@/Components/Pages/Home/Vidibuyer";
 import Vidirewards from "@/Components/Pages/Home/Vidirewards";
 
-import React from "react";
-
 export default function page() {
   return (
     <div>

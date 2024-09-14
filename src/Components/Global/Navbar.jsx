@@ -5,7 +5,7 @@ export default function Navbar() {
     <div className="text-black pl-20 pr-20 pt-2">
       <div className="flex justify-between items-center">
         <div>
-          <Image src="/images/logo.png" alt="Logo" width={20} height={12} />
+          <Image src="/images/logo.png" alt="Logo" width={150} height={60} />
         </div>
         <div className="flex space-x-6">
           <p className="hover:text-blue-400 cursor-pointer">Home</p>

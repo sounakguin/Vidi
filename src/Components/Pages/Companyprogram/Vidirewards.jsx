@@ -127,7 +127,8 @@ export default function Vidirewards() {
               alt={`Blog Image ${index}`}
               width={292} // Set the width
               height={260} // Set the height
-              className="mb-4 object-cover"
+              style={{ objectFit: "cover" }} 
+              className="mb-4"
             />
             <div className="">
               <p className="text-lg font-semibold text-left">{item.Coin}</p>

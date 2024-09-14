@@ -23,14 +23,12 @@ export default function Header() {
         </div>
       </div>
       <div className="relative">
-        <div className="absolute -bottom-2 left-0 w-full">
-        <Image
+        <div className="absolute -bottom-28 left-0 w-full h-[300px] overflow-hidden">
+          <Image
             src="/images/vector.png"
-            alt="Logo"
+            alt="Vector Curve"
             fill
-        
-            height={300}
-            style={{ objectFit: "cover" }}
+            className="object-contain"
           />
         </div>
       </div>

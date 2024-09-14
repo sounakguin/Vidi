@@ -1,4 +1,4 @@
-import React from "react";
+
 import Image from "next/image";
 export default function OurJourney() {
   return (
@@ -12,7 +12,7 @@ export default function OurJourney() {
               alt="Our Journey"
               width={350}
               height={350}
-              className=" object-cover"
+              style={{ objectFit: "cover" }} 
             />
           </div>
 
@@ -26,7 +26,8 @@ export default function OurJourney() {
                   alt="Our Journey"
                   width={10}
                   height={10}
-                  className="h-5 w-5 object-cover pt-1"
+                  style={{ objectFit: "cover" }} 
+                  className="h-5 w-5 pt-1"
                 />
                 <p className="text-md pl-3  mb-2">
                   Guided by their vision to provide safe potable water to all,
@@ -42,7 +43,8 @@ export default function OurJourney() {
                   alt="Our Journey"
                   width={10}
                   height={10}
-                  className="h-5 w-5 object-cover pt-1"
+                  style={{ objectFit: "cover" }} 
+                  className="h-5 w-5 pt-1"
                 />
                 <p className="text-md pl-3  mb-2">
                   Guided by their vision to provide safe potable water to all,
@@ -58,7 +60,8 @@ export default function OurJourney() {
                   alt="Our Journey"
                   width={10}
                   height={10}
-                  className="h-5 w-5 object-cover pt-1"
+                  style={{ objectFit: "cover" }} 
+                  className="h-5 w-5 pt-1"
                 />
                 <p className="text-md pl-3  mb-2">
                   Guided by their vision to provide safe potable water to all,

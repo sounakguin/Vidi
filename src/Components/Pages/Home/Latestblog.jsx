@@ -34,7 +34,7 @@ function SamplePrevArrow(props) {
         alt="Previous"
         width={30}
         height={30}
-        objectFit="contain"
+        style={{ objectFit: "contain" }} 
       />
     </div>
   );
@@ -69,7 +69,7 @@ function SampleNextArrow(props) {
         alt="Next"
         width={30}
         height={30}
-        objectFit="contain"
+        style={{ objectFit: "contain" }} 
       />
     </div>
   );
@@ -125,7 +125,7 @@ export default function Latestblog() {
               alt={`Blog Image ${index}`}
               width={292}
               height={260}
-              objectFit="cover"
+              style={{ objectFit: "cover" }} 
               className="mb-4"
             />
             <div className="">

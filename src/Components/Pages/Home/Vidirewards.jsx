@@ -15,7 +15,7 @@ export default function Vidirewards() {
               key={index}
               className="flex flex-col border border-[#AFAFAF] p-4 w-[240px] rounded-xl"
             >
-              <Image src={items.Image} alt="Logo" width={40} height={40} />
+              <Image src={items.Image} alt="Logo" width={40} height={40}   style={{ objectFit: "cover" }} />
               <p className="text-xs font-bold pt-4">{items.Subtitle}</p>
               <p className="pt-4">{items.Title}</p>
               <p className="text-[#737373] text-sm pt-4">{items.Description}</p>

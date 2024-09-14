@@ -12,7 +12,7 @@ export default function BecamePartner() {
               background: "linear-gradient(360deg, #EFF6FF 0%, #FFFFFF 100%)",
             }}
           >
-            <Image src="/images/Group3.png" alt="Logo" width={30} height={30} />
+            <Image src="/images/Group3.png" alt="Logo" width={30} height={30}   style={{ objectFit: "cover" }} />
             <p className="pt-5 text-lg">Become a partner</p>
             <p className="w-[610px] pt-10 text-md">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -27,6 +27,7 @@ export default function BecamePartner() {
               alt="Logo"
               width={601}
               height={350}
+              style={{ objectFit: "cover" }} 
             />
           </div>
         </div>

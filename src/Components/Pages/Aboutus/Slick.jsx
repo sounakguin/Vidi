@@ -32,10 +32,9 @@ function SamplePrevArrow(props) {
       <Image
         src="/images/Back.png"
         alt="Previous"
-        width={30} // Set the width
-        height={30} // Set the height
-        objectFit="contain" // Ensure the image scales correctly
-        layout="intrinsic" // Ensure the image respects the width and height
+        width={30} 
+        height={30} 
+        style={{ objectFit: "contain" }} 
       />
     </div>
   );
@@ -70,7 +69,7 @@ function SampleNextArrow(props) {
         alt="Previous"
         width={30} // Set the width
         height={30} // Set the height
-        objectFit="contain" 
+        style={{ objectFit: "contain" }} 
        
       />
     </div>
@@ -127,7 +126,8 @@ export default function Slick() {
               alt={`Blog Image ${index}`}
               width={292}
               height={260}
-              className="mb-4 object-cover"
+              style={{ objectFit: "cover" }} 
+              className="mb-4"
             />
             <div className="">
               <p className="text-lg font-semibold text-left">{item.Coin}</p>

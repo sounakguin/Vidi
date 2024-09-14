@@ -11,46 +11,46 @@ export default function Socialmedia() {
       </p>
       <div class="container h-[400px] flex justify-center mt-20 space-x-10">
         <div class="video-set move-up ">
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
         </div>
 
         <div class="video-set move-down">
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
         </div>
         <div class="video-set move-up">
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
         </div>
 
         <div class="video-set move-down">
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
         </div>
         <div class="video-set move-up">
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
-          <video src="/videos/vidivideo.mp4" muted loop autoplay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
+          <video src="/videos/vidivideo.mp4" muted loop autoPlay></video>
         </div>
       </div>
     </div>

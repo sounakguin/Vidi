@@ -78,6 +78,7 @@ export default function Testimonial() {
                   width={30}
                   height={30}
                   className="text-left"
+                  style={{ objectFit: "cover" }} 
                 />
                 <p className="text-center pt-4 text-[15px] text-[#607287]">
                   {items.Description}
@@ -88,6 +89,7 @@ export default function Testimonial() {
                     alt="Logo"
                     width={100}
                     height={100}
+                    style={{ objectFit: "cover" }} 
                     className="p-1"
                   />
                 </div>

@@ -35,7 +35,7 @@ function SamplePrevArrow(props) {
         alt="Previous"
         width={30} // Set the width
         height={30} // Set the height
-        objectFit="contain" // Ensure the image scales correctly
+        style={{ objectFit: "contain" }} 
         
       />
     </div>
@@ -71,7 +71,7 @@ function SampleNextArrow(props) {
         alt="Previous"
         width={30} // Set the width
         height={30} // Set the height
-        objectFit="contain" // Ensure the image scales correctly
+        style={{ objectFit: "contain" }} 
      
       />
     </div>

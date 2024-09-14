@@ -31,6 +31,7 @@ export default function Joinhandes() {
               alt="Logo"
               width={550}
               height={350}
+              style={{ objectFit: "cover" }} 
             />
           </div>
         </div>
@@ -61,6 +62,7 @@ export default function Joinhandes() {
               alt="Logo"
               width={550}
               height={350}
+              style={{ objectFit: "cover" }} 
             />
           </div>
         </div>
@@ -91,6 +93,7 @@ export default function Joinhandes() {
               alt="Logo"
               width={550}
               height={350}
+              style={{ objectFit: "cover" }} 
             />
           </div>
         </div>

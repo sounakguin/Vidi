@@ -59,7 +59,8 @@ export default function Items() {
                     alt={item.Name}
                     width={293}
                     height={285}
-                    className="object-cover mb-4 rounded-lg"
+                    style={{ objectFit: "cover" }} 
+                    className="mb-4 rounded-lg"
                   />
                   <h2 className="text-xl font-semibold mb-2">{item.Name}</h2>
                   <p className="text-xs text-gray-700">{item.Description}</p>

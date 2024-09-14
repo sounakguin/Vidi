@@ -78,6 +78,7 @@ export default function Vidibuyer() {
               alt="Logo"
               width={760}
               height={580}
+              style={{ objectFit: "cover" }} 
             />
           </div>
         </div>

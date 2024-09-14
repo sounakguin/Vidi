@@ -20,6 +20,7 @@ export default function Deals() {
                     alt="Logo"
                     width={250}
                     height={159}
+                    style={{ objectFit: "cover" }} 
                     className="bg-white m-2"
                   />
                 </div>

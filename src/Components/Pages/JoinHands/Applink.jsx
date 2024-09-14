@@ -11,7 +11,7 @@ export default function Applink() {
             background: "linear-gradient(360deg, #EFF6FF 0%, #FFFFFF 100%)",
           }}
         >
-          <Image src="/images/Group1.png" alt="Logo" width={30} height={30} />
+          <Image src="/images/Group1.png" alt="Logo" width={30} height={30}   style={{ objectFit: "cover" }} />
           <p className="pt-5 text-lg">App link</p>
           <p className="w-[610px] pt-10 text-md">
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -21,7 +21,7 @@ export default function Applink() {
           </p>
         </div>
         <div>
-          <Image src="/images/Applink.png" alt="Logo" width={30} height={30} />
+          <Image src="/images/Applink.png" alt="Logo" width={30} height={30}   style={{ objectFit: "cover" }} />
         </div>
       </div>
     </div>

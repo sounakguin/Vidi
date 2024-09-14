@@ -21,7 +21,8 @@ export default function Awards() {
                 src={item.Image}
                 alt={`Recognition ${index}`}
                 width={90} height={90} 
-                className="mb-2 object-cover"
+                style={{ objectFit: "cover" }} 
+                className="mb-2"
               />
               <p className="text-sm">{item.Year}</p>
               <div className="flex items-center justify-center p-4 w-64 bg-[#EFF6FF] mt-5">

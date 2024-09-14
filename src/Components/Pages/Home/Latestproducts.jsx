@@ -15,8 +15,7 @@ export default function Latestproducts() {
                 alt="Product Image"
                 width={293}
                 height={285}
-                objectFit="cover"
-              
+                style={{ objectFit: "cover" }}
               />
               <ul className="list-disc mt-4 ml-10">
                 <li className="font-bold">{items.Name}</li>
@@ -31,8 +30,8 @@ export default function Latestproducts() {
         alt="Logo"
         width={1920} // Set appropriate width
         height={470} // Set appropriate height
-        objectFit="cover"
-        className="h-[470px] w-full mt-48"
+        style={{ objectFit: "cover" }}
+        className="mt-48"
       />
     </div>
   );

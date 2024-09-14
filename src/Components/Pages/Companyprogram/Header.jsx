@@ -21,14 +21,12 @@ export default function Header() {
         </div>
       </div>
       <div className="relative">
-        <div className="absolute -bottom-2 left-0 w-full">
+        <div className="absolute -bottom-28 left-0 w-full h-[300px] overflow-hidden">
           <Image
             src="/images/vector.png"
-            alt="Logo"
-            layout="responsive"
-            width={100}
-            height={300}
-            objectFit="cover"
+            alt="Vector Curve"
+            fill
+            className="object-contain"
           />
         </div>
       </div>

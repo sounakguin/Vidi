@@ -7,13 +7,7 @@ export default function Footer() {
       <div className="bg-[#F4F4F4] border border-[#BFBFBF] pt-12 pb-12">
         <div className="flex justify-around">
           <div className="flex-col">
-            <Image
-              src="/images/logo2.png"
-              alt="Logo"
-              width={167}
-              height={83}
-           
-            />
+            <Image src="/images/logo2.png" alt="Logo" width={167} height={83} />
             <p className="w-80 leading-7">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form believable.
@@ -46,7 +40,7 @@ export default function Footer() {
               alt="Logo"
               width={20}
               height={20}
-              />
+            />
             <Image
               src="/images/Instragram.png"
               alt="Logo"
@@ -73,7 +67,6 @@ export default function Footer() {
               alt="Logo"
               width={135}
               height={40}
-             
             />
           </div>
         </div>
@@ -91,16 +84,8 @@ export default function Footer() {
             <p className="">All Rights Reserved © vidi.co.in</p>
           </div>
           <div className="flex mr-32 space-x-2">
-            <Image
-              src="/images/Frame2.png"
-              alt="Logo"
-              width={18}
-              height={18}
-          
-            />
-            <p >
-            Accessibility statement
-            </p>
+            <Image src="/images/Frame2.png" alt="Logo" width={18} height={18} />
+            <p>Accessibility statement</p>
           </div>
         </div>
       </div>

@@ -13,6 +13,7 @@ export default function Trust() {
               alt="Logo"
               width={60}
               height={60}
+              style={{ objectFit: "cover" }} 
             />
             <p className="font-normal text-base">VIDI Advantage</p>
             <p className="text-sm pt-3 pr-6 pl-6">
@@ -26,6 +27,7 @@ export default function Trust() {
               alt="Logo"
               width={60}
               height={60}
+              style={{ objectFit: "cover" }} 
             />
             <p className="font-normal text-base">Most Trusted & Preferred</p>
             <p className="text-sm pt-3 pr-6 pl-6">
@@ -39,6 +41,7 @@ export default function Trust() {
               alt="Logo"
               width={60}
               height={60}
+              style={{ objectFit: "cover" }} 
             />
             <p className="font-normal text-base">Trusted by Millions</p>
             <p className="text-sm pt-3 pr-6 pl-6">
