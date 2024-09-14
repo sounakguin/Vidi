@@ -1,12 +1,12 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/(root)/contactus/page": "app/(root)/contactus/page.js",
+  "/(root)/about/page": "app/(root)/about/page.js",
   "/(root)/products/page": "app/(root)/products/page.js",
   "/(root)/joinhands/page": "app/(root)/joinhands/page.js",
-  "/(root)/programme/page": "app/(root)/programme/page.js",
   "/(root)/support/page": "app/(root)/support/page.js",
-  "/(root)/products/[id]/page": "app/(root)/products/[id]/page.js",
+  "/(root)/programme/page": "app/(root)/programme/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(root)/about/page": "app/(root)/about/page.js",
-  "/(root)/contactus/page": "app/(root)/contactus/page.js",
+  "/(root)/products/[id]/page": "app/(root)/products/[id]/page.js",
   "/(root)/page": "app/(root)/page.js"
 }
