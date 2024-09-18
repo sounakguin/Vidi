@@ -14,12 +14,12 @@ export default function page() {
       <Header />
       <Latestproducts />
       <Choosevidi />
-      <Testimonial />
-      <Vidibuyer />
-      <Joinhandes />
-      <Vidirewards />
+      {/* <Testimonial /> */}
+      {/* <Vidibuyer /> */}
+      {/* <Joinhandes /> */}
+      {/* <Vidirewards /> */}
       <Socialmedia />
-      <Latestblog />
+      {/* <Latestblog /> */}
     </div>
   );
 }

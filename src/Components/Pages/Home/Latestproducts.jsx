@@ -15,12 +15,13 @@ export default function Latestproducts() {
                 alt="Product Image"
                 width={293}
                 height={285}
+                className="w-[293px] h-[285px]"
                 style={{ objectFit: "cover" }}
               />
-              <ul className="list-disc mt-4 ml-10">
-                <li className="font-bold">{items.Name}</li>
-                <li className="text-xs pt-3">{items.Description}</li>
-              </ul>
+              <span className="list-disc mt-4 ml-10 flex items-center justify-center">
+                <span className="font-bold text-xl">{items.Name}</span>
+                {/* <li className="text-xs pt-3">{items.Description}</li> */}
+              </span>
             </div>
           ))}
         </div>

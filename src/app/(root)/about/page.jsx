@@ -8,8 +8,8 @@ export default function page() {
     <div>
       <Header />
       <OurJourney />
-      <Awards />
-      <Slick />
+      {/* <Awards /> */}
+      {/* <Slick /> */}
     </div>
   );
 }
