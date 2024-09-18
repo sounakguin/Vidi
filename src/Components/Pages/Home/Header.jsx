@@ -15,7 +15,7 @@ export default function Header() {
         <div className="flex flex-col">
           <p className="text-[42px] w-[850px] pl-28 pt-36">
             {/* The World’s Best Water Purifiers & Home Appliances{" "} */}
-            India's leading manufacturer & importer of RO water purifier spare parts. 
+            India&apos;s leading manufacturer & importer of RO water purifier spare parts. 
           </p>
           {/* <p className="pl-28 text-[42px] pt-16 w-[700px]">
             Trusted by Millions Worldwide

@@ -18,15 +18,15 @@ export default function Form() {
     <div>
       <div className="mt-5 ">
         <form className="w-2/4 mx-auto">
-          <div className="flex space-x-10 ">
-            <div className="bg-[#EFF6FF] flex flex-col w-[400px] h-28 p-4  rounded-2xl">
+          <div className="flex space-x-10 w-full">
+            <div className="bg-[#EFF6FF] flex flex-col w-full h-28 p-4  rounded-2xl">
               <label className="font-jost font-normal pt-1">Full Name *</label>
               <input
                 placeholder="Full Name"
                 className="bg-transparent border-b-2 border-black pt-5 text-sm"
               />
             </div>
-            <div className="bg-[#EFF6FF] flex flex-col w-[400px] h-28 p-4  rounded-2xl">
+            <div className="bg-[#EFF6FF] flex flex-col w-full h-28 p-4  rounded-2xl">
               <label className="font-normal font-jost pt-1">Company Name *</label>
               <input
                 placeholder="Company Name"
@@ -34,15 +34,15 @@ export default function Form() {
               />
             </div>
           </div>
-          <div className="flex space-x-10 mt-8">
-            <div className="bg-[#EFF6FF] flex flex-col w-[400px] h-28 p-4  rounded-2xl">
+          <div className="flex space-x-10 w-full mt-8">
+            <div className="bg-[#EFF6FF] flex flex-col w-full h-28 p-4  rounded-2xl">
               <label className="font-jost font-normal pt-1">Email *</label>
               <input
                 placeholder="Email"
                 className="bg-transparent border-b-2 border-black pt-5 text-sm"
               />
             </div>
-            <div className="bg-[#EFF6FF] flex flex-col w-[400px] h-28 p-4  rounded-2xl">
+            <div className="bg-[#EFF6FF] flex flex-col w-full h-28 p-4  rounded-2xl">
               <label className="font-normal font-jost pt-1">Whatsapp Number *</label>
               <input
                 placeholder="Whatsapp Number"
@@ -51,7 +51,7 @@ export default function Form() {
             </div>
           </div>
           <div className="mt-8">
-            <div className="bg-[#EFF6FF] flex flex-col w-[762px] h-28 p-4  rounded-2xl">
+            <div className="bg-[#EFF6FF] flex flex-col w-full h-28 p-4  rounded-2xl">
               <label className="font-normal font-jost pt-1">Address *</label>
               <input
                 placeholder="Address"
@@ -60,7 +60,7 @@ export default function Form() {
             </div>
           </div>
           <div className="mt-8">
-            <div className="bg-[#EFF6FF] flex flex-col w-[762px] h-28 p-4  rounded-2xl">
+            <div className="bg-[#EFF6FF] flex flex-col w-full h-28 p-4  rounded-2xl">
               <label className="font-normal font-jost pt-1">Are you interested in? *</label>
               <div className="relative mt-5">
                 {/* Dropdown button */}
@@ -75,7 +75,7 @@ export default function Form() {
 
                 {/* Dropdown menu */}
                 {isOpen && (
-                  <ul className="absolute -left-4 bg-[#EFF6FF] pb-6 mt-2 z-10 w-[762px]  rounded-2xl">
+                  <ul className="absolute -left-4 bg-[#EFF6FF] pb-6 mt-2 z-10 w-full  rounded-2xl">
                     <li
                       className="border-b-2 border-[#B1B1B1] pt-6 w-[725px] mx-auto cursor-pointer"
                       onClick={() => selectOption("VIDI Products")}
@@ -105,14 +105,17 @@ export default function Form() {
               </div>
             </div>
           </div>
-          <div className="mt-8">
-            <div className="bg-[#EFF6FF] flex flex-col w-[762px] h-28 p-4  rounded-2xl">
+          <div className="mt-8 w-full">
+            <div className="bg-[#EFF6FF] flex flex-col w-full h-28 p-4  rounded-2xl">
               <label className="font-normal font-jost pt-1">Subject *</label>
               <input
                 placeholder="Communicate with us"
                 className="bg-transparent border-b-2 border-black pt-5 text-sm"
               />
             </div>
+          </div>
+          <div className="w-full flex justify-end items-end py-4">
+                <button className="bg-[#0078D4] rounded-md text-white px-10 py-3 rounded-lg">Submit</button>
           </div>
         </form>
       </div>

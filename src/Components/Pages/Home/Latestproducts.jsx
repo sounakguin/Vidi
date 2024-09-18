@@ -5,7 +5,7 @@ import Products from "../../../Components/Data/Homepage/Products";
 export default function Latestproducts() {
   return (
     <div>
-      <div className="w-11/12 mx-auto p-5 mt-10">
+      <div className="w-11/12 mx-auto p-5 mt-10 ">
         <p className="text-[48px] font-bold mb-4">Our Latest Products</p>
         <div className="flex gap-6">
           {Products.map((items, index) => (
@@ -15,8 +15,8 @@ export default function Latestproducts() {
                 alt="Product Image"
                 width={293}
                 height={285}
-                className="w-[293px] h-[285px]"
-                style={{ objectFit: "cover" }}
+                className=" bg-cover object-contain"
+                // style={{ objectFit: "cover" }}
               />
               <span className="list-disc mt-4 ml-10 flex items-center justify-center">
                 <span className="font-bold text-xl">{items.Name}</span>

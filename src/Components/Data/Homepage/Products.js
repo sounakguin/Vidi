@@ -17,22 +17,22 @@ const products = [
     Description: "Lorem Ipsum has been the industry's standard dummy text ",
   },
   {
-    Image: "/images/VIDI_GALAXY.334.png",
+    Image: "/Images/products/V4_100 GPD PRO.651.1.png",
     Name: "V4_Membrane",
     Description: "Lorem Ipsum has been the industry's standard dummy text ",
   },
   {
-    Image: "/images/VIDI_RAPID.343.png",
+    Image: "/Images/products/VIDI 150.989.1.png",
     Name: "Vidi 150",
     Description: "Lorem Ipsum has been the industry's standard dummy text ",
   },
   {
-    Image: "/images/NEXCRU_ELEGANT.484.png",
+    Image: "/Images/products/VIDI 300.990.1.png",
     Name: "Vidi 300",
     Description: "Lorem Ipsum has been the industry's standard dummy text ",
   },
   {
-    Image: "/images/NEXCRU_ELEGANT.484.png",
+    Image: "/Images/products/VIDI_RAPID.343.png",
     Name: "Vidi Rapid",
     Description: "Lorem Ipsum has been the industry's standard dummy text ",
   },
